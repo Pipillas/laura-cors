@@ -810,8 +810,9 @@ button {
 
 .story-portrait img {
   width: 100%;
-  aspect-ratio: 1.25;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
+  object-position: center 42%;
   filter: saturate(0.86) contrast(1.04);
 }
 
